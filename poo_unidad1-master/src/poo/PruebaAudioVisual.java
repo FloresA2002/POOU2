@@ -34,19 +34,20 @@ public class PruebaAudioVisual {
 
         // ==== Cortometraje ====
         Cortometraje corto = new Cortometraje("La Jetée", 28, "Ciencia Ficción", "Chris Marker", true);
-
+        Cortometraje corto2 = new Cortometraje("Lava", 12, "Infantil", "Ana Luan", true);
         // ==== Video Educativo ====
         Experto experto = new Experto("Dra. Ana Pérez", "Biología Molecular");
         VideoEducativo videoEdu = new VideoEducativo("ADN explicado", 12, "Educación", "YouTube", experto);
 
         // ==== Lista de contenidos ====
-        ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[6];
+        ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[7];
         contenidos[0] = avatar;
         contenidos[1] = avengers;
         contenidos[2] = got;
         contenidos[3] = cosmos;
         contenidos[4] = corto;
-        contenidos[5] = videoEdu;
+        contenidos[5] = corto2;
+        contenidos[6] = videoEdu;
 
         // ==== Mostrar detalles ====
         for (ContenidoAudiovisual contenido : contenidos) {
