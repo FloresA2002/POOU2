@@ -137,4 +137,5 @@ Integrar Base de Datos para reemplazar CSV.
 
 Agregar pipeline de CI/CD con GitHub Actions y reportes de cobertura automáticos.
 
-
+>> DIAGRAMA UML
+![Image_Alt](https://github.com/FloresA2002/POOU2/blob/f14af99d3e734ee1dbc15ae233accc75840df955/image.png)
